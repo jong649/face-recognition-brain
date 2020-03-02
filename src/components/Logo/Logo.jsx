@@ -1,6 +1,6 @@
 import React from "react";
 import Tilt from "react-tilt";
-import brain from "./brain.png";
+import faceFinder from "./faceFinder.png";
 import "./Logo.css";
 
 const Logo = () => {
@@ -12,7 +12,11 @@ const Logo = () => {
         style={{ height: 150, width: 150 }}
       >
         <div className="Tilt-inner pa3">
-          <img style={{ paddingTop: "5px" }} src={brain} alt="logo" />
+          <img
+            style={{ paddingTop: "10px", height: "100px" }}
+            src={faceFinder}
+            alt="logo"
+          />
         </div>
       </Tilt>
     </div>
